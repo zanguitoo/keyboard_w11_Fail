@@ -1,0 +1,7 @@
+#download scandevie.ps1 in C:\scan
+#execute this in powershell
+
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+cd C:\scan
+.\scandevice.ps1
